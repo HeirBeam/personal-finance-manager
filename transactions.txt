@@ -1,0 +1,4 @@
+Date, Type, Amount, Category
+2023-01-05, Income, 200, Salary
+2023-01-11, Expense, 20, Groceries
+2023-01-13, Expense, 100, Entertainment
