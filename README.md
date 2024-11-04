@@ -60,10 +60,6 @@ Date, Type, Amount, Category
 
 This UI lets you create transaction files if you don’t have one ready to upload.
 
-```bash
-streamlit run generate_transactions_ui.py
-```
-
 - **Enter transaction details** in the provided fields (date, type, amount, category).
 - **Amount Validation**: The app ensures that only amounts greater than zero can be added.
 - **Download the generated file** as `transactions.txt` and use it in the main app.
@@ -80,7 +76,7 @@ streamlit run generate_transactions_ui.py
    2022-01-05, Expense, 200, Groceries
    ...
    ```
-3. View the visualizations:
+3. View the graphs:
    - **Monthly Income and Expenses** bar chart.
    - **Spending by Category** pie chart.
    - **Forecasted Monthly Expenses** line chart with confidence intervals.
